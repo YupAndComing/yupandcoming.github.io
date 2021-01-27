@@ -1,0 +1,170 @@
+:root {
+  --theme: #620B98;
+  --theme-link: #FFDA1B;
+  --theme-light: #8D59AD;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+  scroll-behavior: smooth;
+  /*background: var(--theme);*/
+  font-size: 1vw;
+}
+
+p {
+  margin: 0;
+}
+
+#description-section{
+  padding-top:75px;
+  padding-bottom:75px;
+  background: var(--theme);
+  color: #fff;
+  width: 100%;
+  /*float: left;*/
+}
+
+.header-text {
+  color: var(--theme);
+  font-size: 3em;
+  text-align: center;
+  padding-top: 90px;
+  display: block;
+  margin: 0 auto;
+  width: 80%;
+  padding-bottom: 10px;
+}
+
+.header-wrapper {
+  width: 100%;
+  height: calc(457px/2 + 350px);
+  background: #fff;
+  color: var(--theme);
+}
+
+.header-logo-wrapper{
+  width: calc(475px/2);
+  height: calc(475px/2);
+  position: absolute;
+  top: 350px;
+  left: calc(50% - 475px/4 - 10px);
+}
+
+.header-logo {
+  display: inline-block;
+  width: 100%;
+}
+
+.description-section-container {
+  width: 50%;
+  margin-left: 25%;
+  font-size: 1.5em;
+  line-height: 1.6em;
+  font-weight: lighter;
+}
+
+.description-text a {
+  color: var(--theme-link);
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+.description-text a:hover{
+  text-decoration: underline;
+  color: #fff;
+}
+
+.listen-button-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 0 auto;
+  width: calc(200px * 3);
+  padding-top: 50px;
+}
+
+.badge {
+  width: 150px;
+  height: 37px;
+  transition: 0.2s;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+}
+
+.soundcloud {
+  width: 121px;
+}
+
+.amazon {
+  width: 130px;
+}
+
+.flip {
+  display: inline-block;
+  -moz-transform: scale(-1, 1);
+  -webkit-transform: scale(-1, 1);
+  -o-transform: scale(-1, 1);
+  -ms-transform: scale(-1, 1);
+  transform: scale(-1, 1);
+}
+
+
+@media only screen
+and (max-device-width : 568px) { /* small iPhone */
+  html,
+  body {
+    font-size: 2.2vw;
+  }
+
+}
+
+@media only screen
+and (min-device-width : 568px)
+and (max-device-width : 767px) { /* bigger phone */
+  html,
+  body {
+    font-size: 2.2vw;
+  }
+
+}
+
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)  { /* iPad */
+  html,
+  body {
+    font-size: 1.25vw;
+  }
+
+
+}
+
+
+@media only screen
+and (min-device-width : 1400px)
+and (max-device-width : 1900px)  { /* oversize width */
+
+
+}
+
+
+@media only screen
+and (min-device-width : 1900px)
+and (max-device-width : 2500px)  { /* oversize width */
+
+
+}
+
+
+@media only screen
+and (min-device-width : 2500px)  { /* oversize width */
+
+
+
+}
