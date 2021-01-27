@@ -22,7 +22,7 @@
           <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
           <enclosure url="{{ post.audio }}"
                      type="audio/mpeg" length="{{ post.length }}"/>
-          <itunes:duration>{{post.duration}}</itunes:duration>
+          <itunes:duration>{{ post.duration }}</itunes:duration>
           <guid isPermaLink="false">sometihng</guid>
         </item>
         {% endfor %}

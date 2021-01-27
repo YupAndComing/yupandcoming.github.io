@@ -4,7 +4,7 @@ title: Sample Ep 1
 date: 2021-1-1
 audio: https://archive.org/details/test3_202101/test1.mp3
 length: 9.529501133786848
-duration: 00:10
+duration: '00:10'
 ---
 
 Hi
